@@ -39,7 +39,7 @@ const showWeatherData = async (city) => {
     windElement.innerText = `${data.wind.speed} km/h`;
     
     weatherContainer.classList.remove('hide');
-    changeBackground(`http://source.unsplash.com/random/?${cityUrl}/`);
+    changeBackground(`http://source.unsplash.com/random/1920x1080/?${cityUrl}/`);
 }
 
 const changeBackground = (imageUrl) => {
